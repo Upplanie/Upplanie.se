@@ -1,0 +1,266 @@
+html{
+    overflow-y: scroll;
+}
+html, body{
+    background-color:#eaf4f4;
+    top:0;
+    margin:0;
+    height:100%;
+    font-family: sans-serif;
+    position:relative;
+}
+#bodyDiv{
+    top:0;
+    height:100%;
+    min-height:100%;
+    /*display:flex;*/
+    flex-direction: column;
+}
+#topNav{
+    top:0;
+    width:100%;
+    background-color: #6b9080;
+    top:0;
+}
+#topNav_content{
+    height:100%;
+    margin:auto;
+    justify-content: space-between;
+}
+.topNavWrapper{
+    height:100%;
+    vertical-align: middle;
+}
+.topNavWrapper:hover{
+    background-color:#a4c3b2;
+}
+.topNavWrapper a{
+    display: block;
+    text-decoration: none;
+    color: #f6fff8;
+    vertical-align: middle;
+    height: 100%;
+}
+.active a{
+    color:#fee600;
+}
+#topNav_home{
+    font-size: 3em;
+    text-align: center;
+}
+
+#topNav_home a:after{
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+#topNav_news a:after, #topNav_aboutUs a:after, #topNav_calendar a:after, #topNav_contact a:after{
+    content:'';
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom:-7px;
+    height: 100%;
+}
+
+#topNav_news, #topNav_aboutUs, #topNav_calendar, #topNav_contact{
+    text-align:center;
+    font-size: 1.667em;
+}
+#main{
+    height:auto;
+    margin:auto;
+
+}
+#sideNav{
+    font-size:16px;
+}
+.sideNavWrapper{
+    padding:10px 20px;
+}
+.sideNavWrapper a {
+    text-decoration: none;
+    color:black;
+}
+.sideNavWrapper ul{
+    list-style: none;
+    padding-left: 0;
+}
+.sideNavWrapper li{
+    padding-top:10px;
+}
+.sideNavWrapper ul a{
+    text-decoration: none;
+    color:black;
+}
+#sideNav_top{
+    text-align: center;
+    color:#f46500;
+}
+#hands{
+    align-items: flex-end;
+    position: fixed;
+    bottom:60px;
+    padding:0;
+    z-index: -1;
+}
+#hands img{
+    width: 220px;
+}
+#content{
+    /*width: 650px;*/
+    /*margin-left:250px;*/
+    background-color:#f6fff8;
+    height:auto;
+    min-height:100%;
+    padding-bottom:20px;
+    font-size:16px;
+}
+.contentWrapper{
+    padding:20px;
+    text-align: justify;
+}
+.contentWrapper a img{
+    width: 90%;
+}
+#footer{
+    background-color:#6b9080;
+    width: 100%;
+}
+#footer_content{
+    margin:auto;
+}
+.footerWrapper{
+    color:#a4c3b2;
+    padding:10px 20px 0 20px;
+}
+.footerWrapper a{
+    text-decoration: none;
+    color:#a4c3b2;
+}
+.active a{
+    color:#fee600;
+}
+#aboutSite a:hover{
+    color:#f6fff8;
+}
+#footer p{
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*#########################*/
+/*### Mobile and Tablet ###*/
+/*#########################*/
+@media only screen and (max-width:767px) {
+    #topNav_content{*/
+        width:100%;
+    }
+    .topNavWrapper{
+        /*display: block;*/
+    }
+    #topNav{
+        position:absolute;
+    }
+    #main{
+        width:100%;
+        padding-top:35%;
+    }
+    #sideNav{
+        width: 100%;
+    }
+    .sideNavWrapper ul li{
+        text-align: center;
+    }
+    .sideNavWrapper ul a img{
+        width:80%;
+    }
+    .hide_m{
+        display:none;
+    }
+    #content{
+        width:100%;
+    }
+    #footer{
+        bottom:0;
+    }
+    .footerWrapper{
+        width:100%;
+        text-align: center;
+    }
+    #hands_m{
+        width:100%;
+        text-align: center;
+    }
+    #hands_m img{
+        width:70%;
+    }
+}
+/*###################*/
+/*##### Desktop #####*/
+/*###################*/
+@media only screen and (min-width: 768px) {
+    #topNav_content{
+        width:900px;
+        display:flex;
+    }
+    .topNavWrapper{
+        display: inline-block;
+        height:60px;
+    }
+    #topNav{
+        height:60px;
+        position: fixed;
+    }
+    #topNav_home{
+        width:250px;
+    }
+    #topNav_news, #topNav_aboutUs, #topNav_calendar, #topNav_contact{
+        width:158px;
+    }
+    #main{
+        width:900px;
+        margin-top:60px;
+        margin-bottom:40px;
+    }
+    #sideNav{
+        width:250px;
+        position:fixed;
+    }
+    .sideNavWrapper ul a img{
+        width:190px;
+    }
+    #content{
+        width: 650px;
+        margin-left:250px;
+    }
+    #footer{
+        position: fixed;
+        bottom:0;
+        height:40px;
+    }
+    #footer_content{
+        width:900px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .footerWrapper{
+        display: inline-block;
+    }
+    .hide_d{
+        display:none;
+    }
+}
