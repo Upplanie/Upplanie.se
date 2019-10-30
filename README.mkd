@@ -1,0 +1,31 @@
+# Upplanie.se
+
+This is a repo for Upplanie's static website.
+
+
+## Structure
+
+The page is organized in the following way:
+
+* home page
+    * news (Wiadomości)
+    * about us (O Nas)
+    * calendar (Kalendarz)
+    * contact (Kontakt)
+    * about site (O Stronie
+
+Additionally, there is a hidden 'additions' (.dodatek) folder that should contain extra files, stylesheets, JS docs, images, etc.
+
+
+## How to contribute
+
+The most convenient way to add content is to request Github collaborator status by emailing upplanie.webmaster@gmail.com. Then you simply (1) clone the repo (2) make changes (3) push changes. Somewhat less efficiently, content can alsoo be added wordprocessor style by requesting access to the project's shared google doc. Content posted there will be added to the site.
+
+### Bugs
+
+If something seems wrong, submit a bug request.
+
+
+## Deploy
+
+The site is deployed with netlify. Changes pushed to the git are published on the web. 
