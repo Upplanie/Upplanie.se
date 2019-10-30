@@ -28,4 +28,4 @@ If something seems wrong, submit a bug request.
 
 ## Deploy
 
-The site is deployed with netlify. Changes pushed to the git are published on the web. 
+The site is deployed with netlify. Changes pushed to the git are published on the web.
