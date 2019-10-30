@@ -165,7 +165,7 @@ html, body{
 /*#########################*/
 /*### Mobile and Tablet ###*/
 /*#########################*/
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
     #topNav_content{*/
         width:100%;
     }
@@ -177,7 +177,7 @@ html, body{
     }
     #main{
         width:100%;
-        padding-top:35%;
+        padding-top:40%;
     }
     #sideNav{
         width: 100%;
@@ -187,12 +187,14 @@ html, body{
     }
     .sideNavWrapper ul a img{
         width:80%;
+        padding-top:10%;
     }
     .hide_m{
         display:none;
     }
     #content{
         width:100%;
+        margin-top:10%;
     }
     #footer{
         bottom:0;
@@ -212,7 +214,7 @@ html, body{
 /*###################*/
 /*##### Desktop #####*/
 /*###################*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     #topNav_content{
         width:900px;
         display:flex;
@@ -241,6 +243,7 @@ html, body{
         position:fixed;
     }
     .sideNavWrapper ul a img{
+        
         width:190px;
     }
     #content{
