@@ -2,7 +2,8 @@ html{
     overflow-y: scroll;
 }
 html, body{
-    background-color:#eaf4f4;
+    /*background-color:#eaf4f4;*/
+    background-color: #f5ffff;
     top:0;
     margin:0;
     height:100%;
@@ -97,14 +98,20 @@ html, body{
     text-align: center;
     color:#f46500;
 }
-#hands{
+#hands, #kulturens{
     align-items: flex-end;
     position: fixed;
-    bottom:60px;
+    /*bottom:60px;*/
     padding:0;
     z-index: -1;
 }
-#hands img{
+#hands{
+    bottom:75px;
+}
+#kulturens{
+    bottom:40px;
+}
+#hands img, #kulturens img{
     width: 220px;
 }
 #content{
@@ -203,11 +210,11 @@ html, body{
         width:100%;
         text-align: center;
     }
-    #hands_m{
+    #hands_m, #kulturens_m{
         width:100%;
         text-align: center;
     }
-    #hands_m img{
+    #hands_m img, #kulturens_m img{
         width:70%;
     }
 }
