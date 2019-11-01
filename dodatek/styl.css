@@ -130,9 +130,10 @@ html, body{
 .contentPic img{
     width: 100%;
 }
-.contentWrapper a img{
+.contentWrapper a img, .contentWrapper p img{
     width: 90%;
 }
+
 #footer{
     background-color:#6b9080;
     width: 100%;
