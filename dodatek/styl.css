@@ -48,6 +48,7 @@ html, body{
 #topNav_home{
     font-size: 3em;
     text-align: center;
+    font-family: 'Herculanum';
 }
 
 #topNav_home a:after{
@@ -158,7 +159,13 @@ html, body{
 #footer p{
     margin:0;
 }
-
+@font-face {
+    font-family: 'Herculanum';
+    src: url('Herculanum.woff2') format('woff2'),
+        url('Herculanum.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
