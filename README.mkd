@@ -10,11 +10,13 @@ The page is organized in the following way:
 * home page
     * news (Wiadomości)
     * about us (O Nas)
+        * constitution in Polish (statut_pl)
+        * constitution in Swedish (statut_sv)
     * calendar (Kalendarz)
     * contact (Kontakt)
     * about site (O Stronie
 
-Additionally, there is a hidden 'additions' (.dodatek) folder that should contain extra files, stylesheets, JS docs, images, etc.
+Additionally, there is an 'additions' (dodatek) folder that should contain any essential extra files, stylesheets, JS docs, logos, etc. Content images have been moved to another [Github repo](https://github.com/Upplanie/upplanie.se_images). Linking them externally like this saves server resources and cuts build/deploy time.
 
 
 ## How to contribute

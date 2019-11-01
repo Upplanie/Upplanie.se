@@ -184,7 +184,7 @@ html, body{
 /*### Mobile and Tablet ###*/
 /*#########################*/
 @media only screen and (max-width:768px) {
-    #topNav_content{*/
+    #topNav_content{
         width:100%;
     }
     .topNavWrapper{
